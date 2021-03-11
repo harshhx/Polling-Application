@@ -25,7 +25,7 @@ SECRET_KEY = '6d24c36k50*lhxx%**vlbcq1v^-3&w3!#m4)5i4&vf=^h!_i4('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://polling-application-harshhx.herokuapp.com/' ]
+ALLOWED_HOSTS = ['127.0.0.1', 'polling-application-harshhx.herokuapp.com/' ]
 
 # Application definition
 
