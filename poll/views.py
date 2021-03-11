@@ -6,7 +6,11 @@ from .models import Poll
 # Create your views here.
 
 def home(request):
-    return render(request, "poll/home.html", {})
+    polls = Poll.objects.all()
+    context = {
+        "polls": polls
+    }
+    return render(request, "poll/home.html", context)
 
 
 def create(request):
