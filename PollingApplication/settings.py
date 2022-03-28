@@ -78,8 +78,14 @@ WSGI_APPLICATION = 'PollingApplication.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd91oa9g2me8cml',
+        'USER': 'jghkfrkkqalpwa',
+        'PASSWORD': '56a2bf49cacccc41f1999bc685069c7caf464ecfe5e00cea84217730dc271b76',
+        'HOST': 'ec2-35-171-57-132.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
